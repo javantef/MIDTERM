@@ -166,12 +166,25 @@ cor.test(Ft$Sim_Centered, Ft$Path_Time)
 ```
 # Power Analysis
 ```{r, eval=F}
-
 library(pwr)
 
 length(Ft)
 pwr.r.test(n=20, r= NULL , sig.level = 0.05, power=.8)
 
+
+es <- seq(.1,2,.1)
+power <- sapply(es, 
+          FUN = function(x) {
+            pwr.r.test(n=20, r= x , sig.level = 0.05)$power})
+Power_Curve <- data.frame(es,power)
+
+library(ggplot2)
+ggplot(Power_Curve, aes(x=es,
+                    y=power))+
+  geom_point()+
+  geom_line()
+
+# es = effect size
 ```
 
 # Discussion

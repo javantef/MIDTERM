@@ -32,7 +32,7 @@ abstract: |
 keywords          : "keywords"
 wordcount         : "500"
 
-bibliography      : ["r-references.bib"]
+bibliography      : ["r-references.bib", "biblio.references"]
 
 floatsintext      : no
 figurelist        : no

@@ -1,30 +1,38 @@
 ---
-title             : "Mental simulation of routes during navigation involves adaptive
-temporal compression"
+title             : "Mental simulation of routes during navigation involves adaptive temporal compression"
 shorttitle        : "MIDTERM: Routes of Mental simulation"
 
 author: 
   - name          : "Aiden E.G.F. Arnold"
     affiliation   : "1,2"
     corresponding : yes    # Define only one corresponding author
-    address       : "Postal address"
-    email         : "my@email.com"
+    address       : "Center for Neuroscience and Department of Psychology, University of California, Davis, Davis, CA 95618, USA"
+    email         : "adekstrom@ucdavis.edu"
   - name          : "Giuseppe Iaria"
     affiliation   : "1"
+  - name          : "Arne D. Ekstrom"
+    affiliation   : "2, 3, 4"
 
 affiliation:
   - id            : "1"
     institution   : "University of Calgary"
   - id            : "2"
-    institution   : "University of California"
+    institution   : "University of California, Center for Neuroscience"
+  - id            : "3"
+    institution   : "University of California, Department of Psychology"
+  - id            : "4"
+    institution   : "University of California, Neuroscience Graduate Group"
+
 
 authornote: |
   Department of Psychology, Hotchkiss Brain Institute and Alberta Children’s Hospital Research Institute, University of Calgary, Calgary, Alberta, Canada
   Center for Neuroscience, University of California, Davis, 1544 Newton Court, Davis, CA, USA
+  Department of Psychology, University of California, Davis, CA, USA
+  Neuroscience Graduate Group, University of California, Davis, CA, USA
 
 
 abstract: |
- [@Arnold_2016] is an experiment to exmaine the temporal and spatial aspects of memory through the use of virtual simulations. Specifically, in the following experiment,, to examined whether their is a relationship between mental simulations and the ability to navigate the fastest route.
+ [@Arnold_2016] is an experiment to exmaine the temporal and spatial aspects of memory through the use of virtual simulations. Specifically, in the following experiment, to examined whether their is a relationship between mental simulations and the ability to navigate the fastest route.
   
   
   <!-- https://tinyurl.com/ybremelq -->
@@ -32,7 +40,7 @@ abstract: |
 keywords          : "keywords"
 wordcount         : "500"
 
-bibliography      : ["r-references.bib", "biblio.references"]
+bibliography      : ["r-references.bib"]
 
 floatsintext      : no
 figurelist        : no
@@ -72,8 +80,7 @@ times of less than 1 second and failure to complete the simulation phase due to 
 Participants were navigated through a virtual city. First they were shown landmarks, ask to locate them, and then find the shortest path to the landmarks.
 
 ## Data analysis
-We used `r cite_r("r-references.bib","bibio.references")` for all our analyses.
-
+We used `r cite_r("r-references.bib")` for all our analyses.
 
 
 
